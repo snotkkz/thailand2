@@ -6,32 +6,32 @@ from datetime import datetime
 import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
 cl = LINETCR.LINE() 
-cl.login(token="EmfDb1fJmfhSpd7MRDO3.k0v7hVG5hUrrYAiSG14EmW.joks2/Jl0iTElLIOyVXaBvO4/RLeWlN201DRz6uInG4=")
+cl.login(token="EnOUE3dh9Co9riJFX6bd.iE1m3SpkNGCz8P9Fm6xKhq.IOY1SKhWzSrcDcjreg0NtTeCeoODCRBGG86B9m3Mf38=")
 cl.loginResult()
 
 ki = LINETCR.LINE() 
-ki.login(token="EmOYUW04NjdwQ0Egp0yc.rhpLr3SAdszTXVT7mquhFa.S5do2/SexV13vqqlLxZu2YGa7nMQrXAHWAA741Qkr6w=")
+ki.login(token="EnEpSJ50jcsFxGwiTGs4.NUzTunVvWU9OhpImHgLkLa.w/VFlCwXw5TUTJJ9wfsQz6dxyK+ov0QSYJsf/rW3HnA=")
 ki.loginResult()
 
 ki2 = LINETCR.LINE() 
-ki2.login(token="EmqhkSjjanO3TZybM5ic.ak/Sv6i97NA4kP02HPjppa.1FCJ0IfHD+s2Z09n0zCcCzimmonhEdGVib7uvByAsEg=")
+ki2.login(token="EnkXIEkRiAr5sM90XZS5.9uU2TqJ2+LuEZTKxf5dUrq.59sYMJzaCmgIXE++xxai8Kmhi2awOhOjt0DnkSyiUfY=")
 ki2.loginResult()
 
-ki3 = LINETCR.LINE() 
-ki3.login(token="Em08TaEXHe0F19o0wCyb.Ya5qlGguSAMcSJXarn/32W.gxg7+9NTcAX38/06Up7TdjDhGNoQLLU+JB9JDeiQx/A=")
-ki3.loginResult()
+#ki3 = LINETCR.LINE() 
+#ki3.login(token="Em08TaEXHe0F19o0wCyb.Ya5qlGguSAMcSJXarn/32W.gxg7+9NTcAX38/06Up7TdjDhGNoQLLU+JB9JDeiQx/A=")
+#ki3.loginResult()
 
-ki4 = LINETCR.LINE() 
-ki4.login(token="EmUdQL0Zlff06r9Ni2rd.5KRnz72PA/njFcuaZfZ8Vq.Wv+WgeHrua7c3eGKu+iL8dUqq32e6vBUaNMB/qK2uKQ=")
-ki4.loginResult()
+#ki4 = LINETCR.LINE() 
+#ki4.login(token="EmUdQL0Zlff06r9Ni2rd.5KRnz72PA/njFcuaZfZ8Vq.Wv+WgeHrua7c3eGKu+iL8dUqq32e6vBUaNMB/qK2uKQ=")
+#ki4.loginResult()
 
-ki5 = LINETCR.LINE() 
-ki5.login(token="EmISor3xLZKGj4hVRTZd.8EAJfZKSWnu+UKVyoveEFq.jnHC7WzGMsE81zIK4yXycEiQ1tDCcCekVh1+7Q8jOFE=")
-ki5.loginResult()
+#ki5 = LINETCR.LINE() 
+#ki5.login(token="EmISor3xLZKGj4hVRTZd.8EAJfZKSWnu+UKVyoveEFq.jnHC7WzGMsE81zIK4yXycEiQ1tDCcCekVh1+7Q8jOFE=")
+#ki5.loginResult()
 
-ki6 = LINETCR.LINE() 
-ki6.login(token="EmMMuNRe83yPuj6q6p8b.APMuxn4klNQaVTkmpnh3IW.RDN2hliFiDG1mf8sApBCB5ferK+9ga3FE1i+Wxk8Kdw=")
-ki6.loginResult()
+#ki6 = LINETCR.LINE() 
+#ki6.login(token="EmMMuNRe83yPuj6q6p8b.APMuxn4klNQaVTkmpnh3IW.RDN2hliFiDG1mf8sApBCB5ferK+9ga3FE1i+Wxk8Kdw=")
+#ki6.loginResult()
 
 
 #ki4 = KITSUNEBOT.LINE()
@@ -133,7 +133,7 @@ ki5mid = ki5.getProfile().mid
 ki5mid = ki5.getProfile().mid
 ki6mid = ki6.getProfile().mid
 Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid]
-admsa = "u2b457b1ef8391ee451c9a22c835e1e33"
+admsa = "u21ed4cdec3ca9e0719f29f5f33a5e41d"
 
 wait = {
     'contact':False,
