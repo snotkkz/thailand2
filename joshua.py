@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,re,os,json,subprocess,codecs,threading,glob
 
 cl = LINETCR.LINE() 
-cl.login(token="EnOUE3dh9Co9riJFX6bd.iE1m3SpkNGCz8P9Fm6xKhq.IOY1SKhWzSrcDcjreg0NtTeCeoODCRBGG86B9m3Mf38=")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE() 
-ki.login(token="EnEpSJ50jcsFxGwiTGs4.NUzTunVvWU9OhpImHgLkLa.w/VFlCwXw5TUTJJ9wfsQz6dxyK+ov0QSYJsf/rW3HnA=")
+ki.login(qr=True)
 ki.loginResult()
 
 ki2 = LINETCR.LINE() 
-ki2.login(token="EnkXIEkRiAr5sM90XZS5.9uU2TqJ2+LuEZTKxf5dUrq.59sYMJzaCmgIXE++xxai8Kmhi2awOhOjt0DnkSyiUfY=")
+ki2.login(qr=True)
 ki2.loginResult()
 
 #ki3 = LINETCR.LINE() 
@@ -233,7 +233,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u2b457b1ef8391ee451c9a22c835e1e33":
+                if msg.from_ == "u21ed4cdec3ca9e0719f29f5f33a5e41d":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
